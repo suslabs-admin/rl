@@ -341,6 +341,7 @@ function Library:CreateWindow(title, color)
             groupboxoutline.BorderSizePixel = 0
             groupboxoutline.Position = UDim2.new(0.0115384618, 0, 0.0169851389, 0)
             groupboxoutline.Size = UDim2.new(0, 254, 0, 40)
+            groupboxoutline.ZIndex = 2
             
             groupboxinline.Name = "groupboxinline"
             groupboxinline.Parent = groupboxoutline
